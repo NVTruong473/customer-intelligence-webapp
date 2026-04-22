@@ -1,0 +1,6 @@
+APP_NAME = "AI Customer Intelligence"
+PAGE_TITLE = "AI Customer Intelligence"
+MODEL_PATH = "model/churn_model.pkl"
+FEATURE_PATH = "model/feature_columns.pkl"
+USERS_PATH = "data/users.csv"
+LOGO_PATH = "assets/logo.png"
