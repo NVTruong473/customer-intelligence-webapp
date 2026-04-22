@@ -50,67 +50,87 @@ Models tested:
 
 Best model selected automatically and saved as:
 
-```text
-model/churn_model.pkl
-```
+    model/churn_model.pkl
 
 ---
 
 ## Project Structure
 
-```text
-customer-intelligence-webapp/
-│── app.py
-│── auth.py
-│── ui.py
-│── predict.py
-│── utils.py
-│── styles.py
-│── config.py
-│── requirements.txt
-│── README.md
-│── TEST_GUIDE.md
-│
-├── assets/
-│   └── logo.png
-│
-├── data/
-│   ├── raw_telco.csv
-│   ├── processed_telco.csv
-│   └── users.csv
-│
-├── model/
-│   ├── churn_model.pkl
-│   └── feature_columns.pkl
-```
+    customer-intelligence-webapp/
+    │── app.py
+    │── auth.py
+    │── ui.py
+    │── predict.py
+    │── utils.py
+    │── styles.py
+    │── config.py
+    │── requirements.txt
+    │── README.md
+    │── TEST_GUIDE.md
+    │
+    ├── assets/
+    │   └── logo.png
+    │
+    ├── data/
+    │   ├── raw_telco.csv
+    │   ├── processed_telco.csv
+    │   └── users.csv
+    │
+    ├── model/
+    │   ├── churn_model.pkl
+    │   └── feature_columns.pkl
 
 ---
 
 ## Run Locally
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+Install packages:
+
+    pip install -r requirements.txt
+
+Run app:
+
+    streamlit run app.py
 
 ---
 
 ## Demo Accounts
 
-```text
-admin / Admin@123
-7590-VHVEG / Cust@7590
-```
+    admin / Admin@123
+    7590-VHVEG / Cust@7590
 
 ---
 
 ## Testing Guide
 
-See:
+See full test cases in:
 
-```text
-TEST_GUIDE.md
-```
+    TEST_GUIDE.md
+
+---
+
+## Screenshots
+
+Add screenshots after deployment:
+
+- Login Page
+- Dashboard
+- Prediction Result
+- Mobile View
+
+---
+
+## Why This Project Matters
+
+This project demonstrates:
+
+- End-to-End ML Workflow
+- Data Cleaning
+- Model Training
+- Model Deployment
+- User Authentication Logic
+- Real Product Thinking
+- Clean Multi-file Architecture
 
 ---
 
@@ -120,7 +140,7 @@ TEST_GUIDE.md
 - Customer Segmentation
 - Database Integration
 - OTP Recovery
-- Activity Logs
+- User Activity Logs
 - Cloud Deployment
 
 ---
