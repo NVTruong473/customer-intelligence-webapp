@@ -52,7 +52,7 @@ Best model selected automatically and saved as:
 
 ```text
 model/churn_model.pkl
-````
+```
 
 ---
 
@@ -88,15 +88,8 @@ customer-intelligence-webapp/
 
 ## Run Locally
 
-Install packages:
-
 ```bash
 pip install -r requirements.txt
-```
-
-Run app:
-
-```bash
 streamlit run app.py
 ```
 
@@ -104,15 +97,8 @@ streamlit run app.py
 
 ## Demo Accounts
 
-Admin:
-
 ```text
 admin / Admin@123
-```
-
-Customer:
-
-```text
 7590-VHVEG / Cust@7590
 ```
 
@@ -120,7 +106,7 @@ Customer:
 
 ## Testing Guide
 
-See full testing cases in:
+See:
 
 ```text
 TEST_GUIDE.md
@@ -128,39 +114,14 @@ TEST_GUIDE.md
 
 ---
 
-## Screenshots
-
-Add screenshots here after deployment:
-
-* Login Page
-* Dashboard
-* Prediction Result
-* Mobile View
-
----
-
-## Why This Project Matters
-
-This project demonstrates:
-
-* End-to-End ML Workflow
-* Data Cleaning
-* Model Training
-* Model Deployment
-* User Authentication Logic
-* Real Product Thinking
-* Clean Multi-file Architecture
-
----
-
 ## Future Improvements
 
-* Credit Risk Prediction
-* Customer Segmentation
-* Database Integration
-* Email OTP Recovery
-* User Activity Logs
-* Cloud Deployment
+- Credit Risk Prediction
+- Customer Segmentation
+- Database Integration
+- OTP Recovery
+- Activity Logs
+- Cloud Deployment
 
 ---
 
@@ -168,11 +129,4 @@ This project demonstrates:
 
 Nguyen Van Truong
 
-GitHub:
-
-```text
-NVTruong473
-```
-
-```
-```
+GitHub: NVTruong473
