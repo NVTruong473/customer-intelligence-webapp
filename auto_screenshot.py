@@ -12,15 +12,21 @@ async def main():
 
         browser = await p.chromium.launch(
             headless=True,
-            args=[
-                "--no-sandbox",
-                "--disable-dev-shm-usage"
-            ]
+            args=["--no-sandbox"]
         )
 
-        page = await browser.new_page(
-            viewport={"width": 1440, "height": 900}
+        context = await browser.new_context(
+            extra_http_headers={
+                "ngrok-skip-browser-warning": "true"
+            }
         )
+
+        page = await context.new_page()
+
+        await page.set_viewport_size({
+            "width": 1440,
+            "height": 900
+        })
 
         await page.goto(APP_URL, timeout=60000)
         await page.wait_for_timeout(5000)
